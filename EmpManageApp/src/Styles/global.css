@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F9FAFB;
+}
+
+/* Employees List CSS */
+.employees-list-container{
+  background-color: rgb(169, 155, 136);
+  padding: 1rem;
+  box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.22),
+    0 8px 16px rgba(0, 0, 0, 0.15),
+    0 16px 30px rgba(0, 0, 0, 0.22);
+}
+.list-heading{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}

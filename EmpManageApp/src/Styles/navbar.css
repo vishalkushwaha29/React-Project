@@ -1,0 +1,22 @@
+.navContainer{
+    background-color: #646465 !important;
+    color: #fefefe !important;
+    border-bottom: 1px solid #000;
+}
+.linkContainer{
+    width: 19rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.linkContainer a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.linkContainer a:hover{
+    color: #ffff27 !important;
+}
+.AppName{
+    margin-left: 10rem;
+    color: #111827;
+}

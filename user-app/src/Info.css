@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to right, #8a8b8b, #b5c0f1) !important;
+}
+.container{
+    background-color: rgb(154, 145, 208);
+    height: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.appName{
+    color: #000 !important;
+}
+.displayCard{
+    background-color: rgb(0, 84, 87);
+}
+.userCard{
+    background-color: rgba(56, 228, 231, 0.638) !important;
+}
+.navbar{
+    width: auto;
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgb(114, 114, 114);
+}
+.navbar-link-container{
+    width: 10rem;
+    padding: 0.5rem;
+    margin-top: -1rem;
+    justify-content: space-between;
+    display: flex;
+}
+.navbar a {
+    color: #000;
+}
+.navbar :hover{
+    color: #ffffff !important;
+}
+.Back-Button{
+    position: absolute;
+    left: 0.5rem;
+    top: 3.2rem;
+}

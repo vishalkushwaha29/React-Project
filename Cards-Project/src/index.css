@@ -1,0 +1,91 @@
+@import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #3e3e3e;
+}
+
+.parent{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card{
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.top img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #bfb6b6;
+  padding: 2px;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 9px;
+  font-size: 13px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+.tag{
+  display: flex;
+  gap: 10px;
+}
+.tag h4{
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: #dadada;
+}
+.center h3 {
+  color: red;
+}
+.center h3 span {
+  font-size: small;
+  font-weight: 100;
+  color: #3e3e3e;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 15px;
+}
+
+.bottom button{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  column-width: 600;
+}
