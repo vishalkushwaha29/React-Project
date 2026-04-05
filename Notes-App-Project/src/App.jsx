@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Trash } from "lucide-react";
+import { ChevronsUp, Trash2 } from "lucide-react";
 
 const App = () => {
 
@@ -20,6 +20,11 @@ const App = () => {
 
     setTitle('');
     setNote('');
+  }
+
+  // Delete Function
+  const deleteNote = (idx) =>{ 
+    setTask(prev => prev.filter((_, id) => id != idx));
   }
 
   return (
@@ -67,19 +72,24 @@ const App = () => {
 
             return (
               <div
-                className="h-52 relative w-42 rounded-2xl text-black bg-center text-balance overflow-y-auto p-2 bg-cover bg-[url('https://static.vecteezy.com/system/resources/thumbnails/010/793/873/small/a-lined-note-paper-covered-with-transparent-tape-on-a-yellow-background-with-a-white-checkered-pattern-free-png.png')]"
+                className="h-52 flex flex-col justify-between relative w-42 rounded-2xl text-black bg-center text-balance overflow-y-auto p-2 bg-cover bg-[url('https://static.vecteezy.com/system/resources/thumbnails/010/793/873/small/a-lined-note-paper-covered-with-transparent-tape-on-a-yellow-background-with-a-white-checkered-pattern-free-png.png')]"
                 id="para"
                 key={idx}
               >
-                <div className="flex justify-between mt-5">
-                  <h3 className="font-semibold text-center border-b-2 mb-2">
+                <div className="mt-5">
+                  <h3 className="font-bold text-center border-b-2 mb-2">
                     {elem.title}
                   </h3>
-                  <button>
-                    <Trash />
-                  </button>
                 </div>
-                <p className="text-xs font-semibold">{elem.note}</p>
+                <p className="text-xs font-semibold mb-25">{elem.note}</p>
+                  <button
+                    onClick={() => {
+                      deleteNote(idx);
+                    }}
+                    className="w-full m-auto active:scale-95 cursor-pointer bg-red-600 rounded font-semibold mb-1"
+                  >
+                    Delete
+                  </button>
               </div>
             );
           })}
