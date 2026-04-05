@@ -6,7 +6,8 @@ const InputValue = () => {
 
     const submitHandler = (e) => {
         e.preventDefault();
-        console.log("Working...");
+        console.log("Form is Submitted by " , title);
+        setTitle('');
     } 
 
   return (
