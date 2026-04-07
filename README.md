@@ -1,5 +1,5 @@
 React Practice Projects
-Upgrading My React Skill by Building Small Projects
+Upgrading My React Skill by Building Small Projects .
 This repository contains multiple React projects that I have developed to practice and strengthen my skills in React, hooks, state management, routing, and UI development.
 
 Projects Overview
