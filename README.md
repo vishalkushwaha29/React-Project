@@ -5,7 +5,7 @@ This repository contains multiple React projects that I have developed to practi
 Projects Overview
 1. Card Project
 A small React project to practice component creation and styling.
-Focus on building reusable card components.    
+Focus on building reusable card components.        
 
 3. Employee Management System
 A fully functional CRUD app for managing employee data.
