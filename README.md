@@ -6,7 +6,7 @@ Projects Overview
 1. Card Project
 A small React project to practice component creation and styling.
 Focus on building reusable card components.        
-
+ 
 3. Employee Management System
 A fully functional CRUD app for managing employee data.
 Built using React, Bootstrap, and custom CSS.
